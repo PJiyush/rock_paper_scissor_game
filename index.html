@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Rock, Paper and Scissors -PJiyush
+    </title>
+</head>
+<body>
+    <header>
+        <h2>
+            Rock, Paper and Scissors - PJiyush
+        </h2>
+    </header>
+    <main>
+        <div class="container" id="theBody">
+            <div class="mainline">Choose Your Move</div>
+            <div class="flex_container">
+                <input type="button" id="rock" value="" >
+                
+                <!-- <img src="/rock.png" alt="rock" style="width:42px;height:42px;" id="rock_pic"> -->
+                <input type="button" id="paper" >
+                <input type="button" id="scissor" >
+            </div>
+            <div class="res">
+                <h4>
+                    Result
+                </h4>
+            </div>
+            <div class="result">
+                <h3 id="yourResult" class="ok">
+                    Computer has choosen the move, now its your turn to beat him
+                </h3>
+            </div>
+    </div>
+    
+    <div class="sideBar">
+        <p class="scoreBoard">Score Board</p>
+        <div class="yourScoreBoard">
+            <p class="you">You</p>
+            <div class="yourScore" id="scoreOfYours">0</div>
+        </div>
+        <div class="computerScoreBoard">
+            <p class="computer">Computer</p>
+            <div class="computerScore" id="scoreOfComputer">0</div>
+        </div>
+        <div>
+            <input type="button" value="New Game" class="newGame" id="new_game">
+        </div>
+    </div>
+    </main>
+    
+</body>
+<script src="index.js"></script>
+</html>
