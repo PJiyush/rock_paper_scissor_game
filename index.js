@@ -1,4 +1,3 @@
-console.log('hello')
 
 
 let a = Math.random()
@@ -18,22 +17,18 @@ function valueOfA(a){
     a = a*100
     a = Math.round(a)
     if(a%3==0){
-    // console.log('rock')
     computerValue  = 1
 }
 else if(a%5==0 || a%7==0){
-    // console.log('scissor')
     computerValue = 2
 }
 else{
-    // console.log('paper')
     computerValue = 3
 }
 
 }
 
-// valueOfA(a)
-// localStorage.clear()
+
 console.log(computerValue)
 localStorage.setItem('you',score_of_yours)
 localStorage.setItem('computer',score_of_computer)
@@ -57,8 +52,7 @@ function assignValue1(){
         score_of_computer = score_of_computer+1;
     }
     else{
-        x.innerHTML = `Draw <br><br> try again`
-        
+        x.innerHTML = `Draw <br><br> try again`    
     }
     
     localStorage.setItem('you',score_of_yours)
@@ -68,15 +62,12 @@ function assignValue1(){
         a = Math.round(a)
     console.log(a)
     if(a%3==0){
-        // console.log('rock')
         computerValue  = 1
     }
     else if(a%5==0 || a%7==0){
-        // console.log('scissor')
         computerValue = 2
     }
     else{
-        // console.log('paper')
         computerValue = 3
     }
     let r = document.getElementById("scoreOfYours")
@@ -121,15 +112,12 @@ function assignValue2(){
     a = Math.round(a)
 console.log(a)
 if(a%3==0){
-    // console.log('rock')
     computerValue  = 1
 }
 else if(a%5==0 || a%7==0){
-    // console.log('scissor')
     computerValue = 2
 }
 else{
-    // console.log('paper')
     computerValue = 3
 }
 let pr = document.getElementById("scoreOfYours")
@@ -171,15 +159,12 @@ function assignValue3(){
     a = Math.round(a)
 console.log(a)
 if(a%3==0){
-    // console.log('rock')
     computerValue  = 1
 }
 else if(a%5==0 || a%7==0){
-    // console.log('scissor')
     computerValue = 2
 }
 else{
-    // console.log('paper')
     computerValue = 3
 }
 let qr = document.getElementById("scoreOfYours")
